@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<script src="js/main.js"> </script>
@@ -7,6 +7,9 @@
 </head>
 <body>
 	<h1>hello world !</h1>
+	<div ng-controller="myController">
+		{{name}}
+	</div>
 
 </body>
 </html>
